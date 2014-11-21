@@ -91,6 +91,18 @@
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HyperGif\HyperGif.csproj">
+      <Project>{82620d91-0ea1-47c2-9d34-0f289b18b0dd}</Project>
+      <Name>HyperGif</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="中国好老公.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PS练习图片.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
